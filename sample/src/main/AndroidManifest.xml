@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".TestActivity"
+            android:name=".KotlinActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".JavaActivity" />
-        <activity android:name=".KotlinActivity" />
+        <activity android:name=".TestActivity" />
     </application>
 
 </manifest>
